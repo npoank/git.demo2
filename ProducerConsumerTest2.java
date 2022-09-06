@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ProducerConsumerTest2 {
     public static void main(String[] args) throws InterruptedException {
+        System.out.println("Hello JAVA !!!");
         WaitAndNotify wn = new WaitAndNotify();
 
         Thread thread1 = new Thread(new Runnable() {
